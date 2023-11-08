@@ -1,0 +1,51 @@
+.user-account-options p {
+  /* display: flex; */
+  padding: 1rem;
+}
+.user-account-options {
+  display: flex;
+}
+
+.user-privacy-data {
+  padding: 0.75rem;
+}
+.user-ph-mail {
+  border-radius: 3rem;
+  width: 100%;
+  /* height: 2rem; */
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  margin-bottom: 10rem;
+  border: 1px solid rgb(32, 187, 248);
+}
+
+.login-data-container {
+  margin-top: 5rem;
+}
+
+.otp-container {
+  border-top-color: black;
+  margin: 5%;
+}
+.generate-otp-btn {
+  width: 80%;
+  border-radius: 2rem;
+  margin: 0.5rem 1.75rem;
+  padding: 0.75rem;
+  background: rgb(32, 187, 248);
+  border-top-color: black;
+  /* outline: none; */
+  /* border: none; */
+}
+
+
+.generate-otp-btn > p{
+  padding: 2rem;
+  font-size: 0.5px;
+  /* margin : 0.5rem; */
+}
+
+.login-pg-orange-color-text {
+  color: #ff5310;
+  text-decoration: underline;
+}

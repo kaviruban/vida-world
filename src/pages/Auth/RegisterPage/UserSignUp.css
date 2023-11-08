@@ -1,0 +1,60 @@
+.signup-pg-orange-color-text {
+    color: #ff5310;
+    text-decoration: underline;
+  }
+
+
+.signup-container{
+  margin: 5rem 2rem; 
+
+}
+
+.collect-user-data-container{
+  display: flex;
+  flex-grow: inherit;
+  flex-direction: column;
+}
+
+label{
+  display: flex;
+  flex-direction: column ;
+  padding:  0.5rem 0 ;
+}
+
+.receive-user-data{
+  border-radius:25px;
+  /* width : 50%; */
+  /* height : 5rem; */
+  padding: 0.75rem;
+}
+
+input{
+  border: 1px solid #ccc;
+}
+
+.confirm-check{
+  display: flex;
+  margin-top : 2rem;
+}
+
+.confirm-check > input{
+  margin-right: 2em;
+
+}
+
+.user-mob-num{
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+ 
+.country-extension-mob{
+  width : 2rem;
+  height : 2rem;
+  border-radius: 15px;
+}
+/* 
+.user-mob-num > .receive-user-data{
+  width : 50%;
+} */
+

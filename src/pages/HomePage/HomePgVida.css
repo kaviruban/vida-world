@@ -1,0 +1,226 @@
+body {
+  background-color: white;
+}
+/* .vida-home-container {
+  display: flex;
+    flex-direction: column;
+} */
+.festive-web-banner {
+  /* margin: 5rem 0; */
+}
+
+img {
+  max-width: 100%;
+}
+.slider-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: rgb(241, 119, 37);
+  border-radius: 50px;
+  margin: 0 0.2em 1em;
+}
+.menu label:hover,
+.menu label:focus {
+  background: #000203;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: contain;
+  background-position: 50% 50%;
+  transition: left 0s 0.75s;
+  background-repeat: no-repeat;
+}
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left 0.65s ease-out;
+}
+.slide-1 {
+  background-image: url("../../assets/Images/festive_web_banner_home.jpg");
+}
+.slide-2 {
+  background-image: url("../../assets/Images/Changemaker_Web_banner.jpg");
+}
+
+.service-provider-container {
+  width: 100%;
+}
+
+input {
+  border-radius: 25px;
+  padding: 0.75rem;
+  border: 1px solid #050404;
+}
+
+.battery-vehicle-container {
+  width: 100%;
+  display: flex;
+}
+
+.vida-model-location {
+  margin: 1rem;
+}
+.vida-one-pro-container > img {
+  height: 10px;
+  width: 10px;
+}
+.vida-one-pro-container {
+  margin: 2rem;
+  background-color: #e9e6e6;
+  border-radius: 1.5rem;
+  height: 100%;
+}
+
+.vida-pro-orange-color-text {
+  color: #ff5310;
+  text-decoration: underline;
+}
+
+.area-pricing-about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2rem;
+  background-color: #e9e6e6;
+  border-radius: 1.5rem;
+}
+
+.pricing-in-diff-places {
+  display: flex;
+  margin: 1rem;
+}
+
+.pricing-in-diff-places > div {
+  padding: 1rem;
+  margin: 0.25rem;
+  border: 1px solid rgb(32, 187, 248);
+}
+
+.vida-contact-container {
+  margin: 1rem;
+}
+
+.vida-contact-img-container {
+  margin-top: 1rem;
+  border-radius: 1.5rem;
+  background-color: rgb(165, 224, 247);
+}
+
+.vida-contact-img-container > img {
+  height: 10em;
+  width: 10em;
+}
+.vida-contact-details-container {
+  background-color: rgb(41, 37, 37);
+}
+
+.viva-user-details-subtmitBtn {
+  width: 80%;
+  border-radius: 2rem;
+  margin: 0.5rem 1.75rem;
+  padding: 0.75rem;
+  background: rgb(32, 187, 248);
+  border-top-color: black;
+}
+
+.vida-payment-info {
+  background-color: #ccc;
+  margin:  0;
+}
+.full-payment {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.loan-payment {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.emi-payment {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.subscription-payment {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.about-vida-pro-model {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-container {
+  margin: 0.25rem;
+  background-color: grey;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.purchase-image {
+  position: absolute;
+}
+
+.purchase-content {
+  margin: 2rem;
+  position: relative;
+  top: 30rem;
+}
+.emi-calc-btn {
+  width: 80%;
+  border-radius: 2rem;
+  margin: 0.5rem 1.75rem;
+  padding: 0.75rem;
+  background: rgb(32, 187, 248);
+}
+
+.footer-community-container {
+  background-color: #e2dede;
+}
+
+.vida-all-community-container div {
+  padding: 2rem 0.75rem;
+}
+
+.orange-color-text {
+  color: #ff5310;
+}
+
+/* @media (min-width:300px) and (max-width:1020px){ */
+.festive-web-banner {
+  height: 300px;
+  margin: 5rem 0;
+}
+/* } */
+/* .imt{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+} */
